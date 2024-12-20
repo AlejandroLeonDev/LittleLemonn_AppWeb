@@ -1,7 +1,7 @@
 # Clone project
 ```bash
 git init
-git clone https://github.com/truonganhvu205/little-lemon-django.git
+git clone https://github.com/AlejandroLeonDev/LittleLemonn_AppWeb.git
 cd little-lemon-django
 ```
 
@@ -29,11 +29,11 @@ pipenv install djoser
 
 ## Connect to MySQL
 ```bash
-mysql -u root -p
+mysql -u admin_littlelemon -p
 create database reservations;
 
-create user 'adminlittlelemon'@'localhost' identified by 'admin123$%^';
-grant all on *.* to 'adminlittlelemon'@'localhost';
+create user 'admin_littlelemon'@'localhost' identified by 'Admin@123456';
+grant all on *.* to 'admin_littlelemon'@'localhost';
 flush privileges;
 
 exit
@@ -50,16 +50,16 @@ python3 manage.py runserver
 ```bash
 Django
   Admin
-    admin
-    adminuser123$%^
+    admin_django
+    Admin@django123
 
   Customer
-    johndoe
-    johndoeuser123$%^
+    customer_user
+    Customer@123
 
 MySQL
-  adminlittlelemon
-  admin123$%^
+  admin_littlelemon
+  Admin@123456
 ```
 
 ## Deactivate virtual environment
