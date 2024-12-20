@@ -94,10 +94,10 @@ exit
   </tr>
   <tr align='center'>
     <td>
-      <img src='https://github.com/truonganhvu205/little-lemon-django/blob/main/little-lemon-django/little-lemon_Imagen1.png' />
+      <img src='little-lemon-django/little-lemon_Imagen1.png' alt="Home Page"/>
     </td>
     <td>
-      <img src='https://github.com/truonganhvu205/little-lemon-django/blob/main/little-lemon-django/little-lemon_Imagen2.png' />
+      <img src='little-lemon-django/little-lemon_Imagen2.png' alt="About Page"/>
     </td>
   </tr>
 </table>
@@ -110,10 +110,10 @@ exit
   </tr>
   <tr align='center'>
     <td>
-      <img src='https://github.com/truonganhvu205/little-lemon-django/blob/main/little-lemon-django/little-lemon_Imagen3.png' />
+      <img src='little-lemon-django/little-lemon_Imagen3.png' alt="Menu Page"/>
     </td>
     <td>
-      <img src='https://github.com/truonganhvu205/little-lemon-django/blob/main/little-lemon-django/little-lemon_Imagen4.png' />
+      <img src='little-lemon-django/little-lemon_Imagen4.png' alt="Menu Item Page"/>
     </td>
   </tr>
 </table>
@@ -127,13 +127,13 @@ exit
   </tr>
   <tr align='center'>
     <td>
-      <img src='https://github.com/truonganhvu205/little-lemon-django/blob/main/little-lemon-django/little-lemon_Imagen5.png' />
+      <img src='little-lemon-django/little-lemon_Imagen5.png' alt="Before Booking Page"/>
     </td>
     <td>
-      <img src='https://github.com/truonganhvu205/little-lemon-django/blob/main/little-lemon-django/little-lemon_Imagen6.png' />
+      <img src='little-lemon-django/little-lemon_Imagen6.png' alt="After Booking Page"/>
     </td>
     <td>
-      <img src='https://github.com/truonganhvu205/little-lemon-django/blob/main/little-lemon-django/little-lemon_Imagen7.png' />
+      <img src='little-lemon-django/little-lemon_Imagen7.png' alt="All Reservations Page"/>
     </td>
   </tr>
 </table>
