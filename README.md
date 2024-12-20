@@ -1,33 +1,45 @@
-# Clone project
+# LittleLemon Restaurant Web Application
+
+## Table of Contents
+- [Installation Guide](#installation-guide)
+- [Database Setup](#database-setup)
+- [Running the Application](#running-the-application)
+- [Access Credentials](#access-credentials)
+- [Project Preview](#project-preview)
+
+## Installation Guide
+
+### 1. Clone Repository
 ```bash
 git init
 git clone https://github.com/AlejandroLeonDev/LittleLemonn_AppWeb.git
 cd little-lemon-django
 ```
 
-## Install pipenv
+### 2. Virtual Environment Setup
 ```bash
+# Install pipenv
 pip3 install pipenv
-```
 
-## Activate virtual environment
-```bash
+# Create and activate virtual environment
 pipenv --python 3.10
 pipenv shell
 ```
 
-## Install Django & frameworks
+### 3. Dependencies Installation
 ```bash
-# Django
+# Core Framework
 pipenv install django
 
-# Frameworks
+# Additional Dependencies
 pipenv install mysqlclient
 pipenv install djangorestframework
 pipenv install djoser
 ```
 
-## Connect to MySQL
+## Database Setup
+
+### MySQL Configuration
 ```bash
 mysql -u admin_littlelemon -p
 create database reservations;
@@ -39,35 +51,42 @@ flush privileges;
 exit
 ```
 
-# Run server
+## Running the Application
+
+### Initialize and Start Server
 ```bash
 python3 manage.py makemigrations
 python3 manage.py migrate
 python3 manage.py runserver
 ```
 
-## Account required
-```bash
-Django
-  Admin
-    admin_django
-    Admin@django123
+## Access Credentials
 
-  Customer
-    customer_user
-    Customer@123
+### Django Accounts
+```plaintext
+Administrator:
+  Username: admin_django
+  Password: Admin@django123
 
-MySQL
-  admin_littlelemon
-  Admin@123456
+Customer:
+  Username: customer_user
+  Password: Customer@123
 ```
 
-## Deactivate virtual environment
+### MySQL Access
+```plaintext
+Username: admin_littlelemon
+Password: Admin@123456
+```
+
+### Closing Environment
 ```bash
 exit
 ```
 
-# Preview project
+## Project Preview
+
+### Home and About Pages
 <table align='center'>
   <tr align='center'>
     <td>Home</td>
@@ -75,14 +94,15 @@ exit
   </tr>
   <tr align='center'>
     <td>
-      <img src='https://github.com/truonganhvu205/little-lemon-django/blob/main/little-lemon-django/little-lemon-django-pic-1.png' />
+      <img src='https://github.com/truonganhvu205/little-lemon-django/blob/main/little-lemon-django/little-lemon_Imagen1.png' />
     </td>
     <td>
-      <img src='https://github.com/truonganhvu205/little-lemon-django/blob/main/little-lemon-django/little-lemon-django-pic-2.png' />
+      <img src='https://github.com/truonganhvu205/little-lemon-django/blob/main/little-lemon-django/little-lemon_Imagen2.png' />
     </td>
   </tr>
 </table>
 
+### Menu Interface
 <table align='center'>
   <tr align='center'>
     <td>Menu</td>
@@ -90,14 +110,15 @@ exit
   </tr>
   <tr align='center'>
     <td>
-      <img src='https://github.com/truonganhvu205/little-lemon-django/blob/main/little-lemon-django/little-lemon-django-pic-3.png' />
+      <img src='https://github.com/truonganhvu205/little-lemon-django/blob/main/little-lemon-django/little-lemon_Imagen3.png' />
     </td>
     <td>
-      <img src='https://github.com/truonganhvu205/little-lemon-django/blob/main/little-lemon-django/little-lemon-django-pic-4.png' />
+      <img src='https://github.com/truonganhvu205/little-lemon-django/blob/main/little-lemon-django/little-lemon_Imagen4.png' />
     </td>
   </tr>
 </table>
 
+### Reservation System
 <table align='center'>
   <tr align='center'>
     <td>Before Booking</td>
@@ -106,13 +127,13 @@ exit
   </tr>
   <tr align='center'>
     <td>
-      <img src='https://github.com/truonganhvu205/little-lemon-django/blob/main/little-lemon-django/little-lemon-django-pic-5.png' />
+      <img src='https://github.com/truonganhvu205/little-lemon-django/blob/main/little-lemon-django/little-lemon_Imagen5.png' />
     </td>
     <td>
-      <img src='https://github.com/truonganhvu205/little-lemon-django/blob/main/little-lemon-django/little-lemon-django-pic-6.png' />
+      <img src='https://github.com/truonganhvu205/little-lemon-django/blob/main/little-lemon-django/little-lemon_Imagen6.png' />
     </td>
     <td>
-      <img src='https://github.com/truonganhvu205/little-lemon-django/blob/main/little-lemon-django/little-lemon-django-pic-7.png' />
+      <img src='https://github.com/truonganhvu205/little-lemon-django/blob/main/little-lemon-django/little-lemon_Imagen7.png' />
     </td>
   </tr>
 </table>
